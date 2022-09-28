@@ -28,13 +28,13 @@ function Header() {
 
   return (
     <div>
-        <header className="p-5 text-center text-white bg-primary">
+        <header className="p-5 text-center site-heading">
         <h1>Jared Daniel</h1>
         </header>
         <nav>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
         </nav>
-        <main>
+        <main className='container'>
           {renderPage()}
         </main>
     </div>
