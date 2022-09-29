@@ -98,3 +98,7 @@ img.profile {
   font-size: 18px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.175);
 }
+
+textarea {
+  height: 200px;
+}
