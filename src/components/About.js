@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='d-flex flex-column justify-content-center p-2'>
       <div className='content section-head'>About Me</div>
-      <div className='content'><img src={process.env.PUBLIC_URL + '/Profile_Pic.jpg'} alt="Profile pic"/></div>
+      <div className='content'><img src={process.env.PUBLIC_URL + '/images/Profile_Pic.jpg'} alt="Profile pic" className='profile'/></div>
       <div className='content'>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

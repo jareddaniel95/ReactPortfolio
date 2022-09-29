@@ -55,7 +55,7 @@ li a:hover{
   border-top: 2px solid dodgerblue;
 }
 
-img {
+img.profile {
   max-height: 400px;
   max-width: 400px;
   aspect-ratio: 1 / 1;
@@ -70,4 +70,31 @@ img {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
   margin-bottom: 8px;
+}
+
+.preview {
+  height: 350px;
+  margin-bottom: 4px;
+}
+
+.preview > img {
+  height: 100%;
+  width: 100%;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.portfolio > div {
+  width: 350px;
+  flex: 45%;
+}
+
+.card > h2 {
+  padding: 10px 0px;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.175);
 }

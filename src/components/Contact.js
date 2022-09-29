@@ -1,6 +1,7 @@
 import React from 'react';
 
 export default function Contact() {
+  
   return (
     <div className='d-flex flex-column justify-content-center p-2'>
       <div className='content section-head'>Contact Me</div>
