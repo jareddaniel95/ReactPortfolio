@@ -6,6 +6,18 @@ export default function Portfolio() {
       <div className='content section-head'>Portfolio</div>
       <div className='content portfolio'>
 
+      <div className='card m-2'>
+          <h2>Trivia App</h2>
+          <div className='preview'>
+            <img src={process.env.PUBLIC_URL + '/images/trivia.png'} alt='Trivia App preview'/>
+          </div>
+          <div className='m-2'>A trivia game you can play with friends.</div>
+          <div>
+            <a href='https://triviyaa.herokuapp.com/' className="btn btn-med btn-block btn-outline-primary m-2">View Deployment</a>
+            <a href='https://github.com/jareddaniel95/triviyaa' className="btn btn-med btn-block btn-outline-primary m-2">View Repository</a>
+          </div>
+        </div>
+
         <div className='card m-2'>
           <h2>Poll Together</h2>
           <div className='preview'>
@@ -63,18 +75,6 @@ export default function Portfolio() {
           <div>
             <a href='https://jareddaniel95.github.io/WeatherDashboard/' className="btn btn-med btn-block btn-outline-primary m-2">View Deployment</a>
             <a href='https://github.com/jareddaniel95/WeatherDashboard' className="btn btn-med btn-block btn-outline-primary m-2">View Repository</a>
-          </div>
-        </div>
-
-        <div className='card m-2'>
-          <h2>Code Quiz</h2>
-          <div className='preview'>
-            <img src={process.env.PUBLIC_URL + '/images/code_quiz.png'} alt='Code Quiz preview'/>
-          </div>
-          <div className='m-2'>A timed quiz with a leaderboard.</div>
-          <div>
-            <a href='https://jareddaniel95.github.io/CodeQuiz/' className="btn btn-med btn-block btn-outline-primary m-2">View Deployment</a>
-            <a href='https://github.com/jareddaniel95/CodeQuiz' className="btn btn-med btn-block btn-outline-primary m-2">View Repository</a>
           </div>
         </div>
 
